@@ -1,0 +1,6 @@
+{
+  "name": "BOSS ART Control Center",
+  "description": "A production-ready self-hosted deployment platform for Node.js, TypeScript, and static sites. Alternative to Vercel and Coolify.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

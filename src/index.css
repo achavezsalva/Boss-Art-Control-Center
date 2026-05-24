@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #050505;
+  --color-brand-surface: #0a0a0a;
+  --color-brand-border: #1e293b; /* slate-800 */
+  --color-emerald-500: #10b981;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-slate-200 antialiased selection:bg-emerald-500/30 selection:text-emerald-400;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
